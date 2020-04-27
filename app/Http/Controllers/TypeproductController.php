@@ -61,7 +61,7 @@ class TypeproductController extends Controller
                 'description' => 'Mô tả loại sản phẩm'
             ]
         );
-        $typeproduct = new Typeproduct();
+        $typeproduct = new typeproduct();
         $typeproduct->product_type_id = request('product_type_id');
         $typeproduct->product_type_name = request('product_type_name');
         $typeproduct->description = request('description');
