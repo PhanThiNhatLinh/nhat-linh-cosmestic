@@ -23,4 +23,5 @@
     <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 
     <title>Website - @yield('title')</title>
+    <base href="{{ asset('') }}">
 </head>
