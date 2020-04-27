@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
-use App\product;
+use App\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\typeproduct;
