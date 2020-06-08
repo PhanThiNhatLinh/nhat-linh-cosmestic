@@ -136,7 +136,8 @@
         <div style="padding-left:300px">
             <form action="{{ route('cart.clear') }}" method="post">
                 @csrf
-                <input type="submit" value="Xóa Giỏ Hàng" class="btn btn-danger"></a>
+                <input type="submit" onclick="return confirm('Bạn có chắc chắn muốn xóa giỏ hàng ?')"
+                    value="Xóa Giỏ Hàng" class="btn btn-danger"></a>
             </form>
         </div>
     </div>

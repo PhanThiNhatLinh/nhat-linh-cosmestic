@@ -69,7 +69,7 @@ class TypeproductController extends Controller
         $typeproduct->user_id = Auth::user()->id;
         // $article->user_id = Auth::user()->id; Truy vấn thông tin người đăng nhập với id
         $typeproduct->save();
-
+        // return back()->with('success', 'Tạo mới thành công');
         return redirect('/typeproducts')->with('success', 'Tạo mới thành công');
     }
 
